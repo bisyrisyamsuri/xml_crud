@@ -1,0 +1,16 @@
+Catatan untuk menjalankan program : 
+
+1) Menggunakan 
+XAMPP 5.6.40
+PHP Version 5.6.40
+
+2) Pada "C:\xampp\php\php.ini"
+// ubah
+;extension=php_xmlrpc.dll
+short_open_tag=Off
+// menjadi
+extension=php_xmlrpc.dll
+short_open_tag=On
+
+3) Restart Apache di XAMPP Control Panel
+
